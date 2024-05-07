@@ -263,6 +263,23 @@ footer {
 	}
 }
 
+@media only screen and (max-width: 991px) {
+	body {
+	   background-color: green;
+	   font-size: 14px;
+	}
+	header {
+		padding: 30px;
+	}
+	nav ul li {
+		margin-right: 30px;
+	}
+	section {
+		margin: 30px;
+		padding: 30px;
+	}
+}
+
 
 
 header {
