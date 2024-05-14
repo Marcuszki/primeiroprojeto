@@ -29,5 +29,25 @@ $(document).ready(function(){
             $('nav ul').removeAttr('style');
         }
     });
-});
+});  
 
+var data = new Date();
+
+var nome = "Adventure Land";
+let hora = data.getHours();
+const minutos = data.getMinutes();
+let segundos = data.getSeconds();
+alert("Bem Vindo ao, " + nome + " agora são, " + hora + ":" + minutos + ":" + segundos )
+
+
+    
+        var elemento = document.getElementById("texx");
+        elemento.style.color = "gray"
+
+        
+        document.write("<h1> aaaaaaaaaaaaaaaaaaaa </h1>");
+
+var nome1 = "Marcus";
+var sobrenome = "Andrade";
+document.getElementById("p1").innerHTML = nome;
+document.getElementById("p2").innerHTML = sobrenome;
